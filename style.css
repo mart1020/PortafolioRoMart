@@ -1,0 +1,118 @@
+
+/*links font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+/*-------------------------------------------*/
+/*NAVEGADOR*/
+
+
+nav{
+   
+    background: #8A2387;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.brand-logo{
+   font-family: Satisfy;
+   
+}
+.navLetras{
+    font-family: Satisfy;
+    font-size: 100px;
+}
+/*--------------------------------------------*/
+/*CARTA PRINCIPAL*/
+/*--------------------------------------------*/
+h1{
+    font-family: Fredericka the Great;
+
+}
+h4{
+    font-family: Sofia;
+    position: center;
+}
+/*---------------------------------------------*/
+/*SECCION PRINCIPAL*/
+/*--------------------------------------------*/
+h2{
+    font-family: Dancing Script;
+    margin-left: 100px;
+}
+
+.card-content{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+/*--------------------------------------------*/
+/*CARTA HABILIDADES*/
+/*-------------------------------------------*/
+.logos {
+    width: 20px 20px 20px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    animation-name: movimientoDeLogos;
+    animation-duration: 2s;
+}
+
+@keyframes movimientoDeLogos {
+    
+    
+    
+}
+
+/*Carta margenes*/
+
+.card-margin{
+    margin-top: 300px;
+    margin-bottom: 300px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+
+/*--------------------------------------------*/
+/*PIE DE PAGINA*/
+/*--------------------------------------------*/
+
+
+footer{
+
+    background: #8A2387;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.imageFooter{
+    size: 50%;
+}
+
+/*body*/
+
+.card-content{
+    font-family: Darker Grotesque;
+    font-size: x-large;
+
+}
+
+/*Proyectos*/
+
+.icono-proyectos{
+    display: inline;
+    
+}
